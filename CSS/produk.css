@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.shop-detail{
+    display: flex;
+    margin-top: 10vh;
+    border: 1px solid #000;
+}
+.shop-detail .shop-detail-image{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.shop-detail .shop-detail-image img{
+    width: 400px;
+    height: 400px;
+    margin: 2px;
+}
+.shop-detail .shop-detail-text{
+    flex-direction: column;
+    line-height: 5vh;
+    margin: 5vh;
+}
+.shop-detail .buton button{
+    padding: 15px 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 14px;
+}
